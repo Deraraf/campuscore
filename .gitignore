@@ -1,0 +1,60 @@
+cat > .gitignore << 'EOF'
+# =========================
+# Dependencies
+# =========================
+node_modules/
+
+# pnpm
+.pnpm-store/
+
+# Turborepo
+.turbo/
+
+# Next.js
+.next/
+out/
+
+# NestJS
+dist/
+coverage/
+
+# TypeScript
+*.tsbuildinfo
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Testing
+coverage/
+
+# Prisma
+packages/prisma/generated/
+
+# Uploads
+uploads/
+
+# Temporary
+tmp/
+temp/
+
+# Cache
+.cache/
+
+EOF

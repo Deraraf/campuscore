@@ -5,10 +5,10 @@
   "description": "CampusCore - Enterprise AI SaaS Platform for Universities",
   "license": "MIT",
   "type": "module",
-  "packageManager": "pnpm@10.6.0",
+  "packageManager": "pnpm@11.9.0",
   "engines": {
     "node": ">=22.0.0",
-    "pnpm": ">=11.6.0"
+    "pnpm": ">=11.9.0"
   },
   "scripts": {
     "dev": "turbo run dev",
